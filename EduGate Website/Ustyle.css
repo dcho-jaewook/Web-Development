@@ -4,6 +4,11 @@
     font-family: "Nanum Gothic", sans-serif;
 }
 
+:root {
+    --main-color: rgb(48,205,215);
+    --sub-color: white;
+}
+
 /* Invisible */
 .header-menu-College,
 .header-menu-SAT,
@@ -12,7 +17,7 @@
 }
 
 #header {
-    background-color: rgb(48,205,215);
+    background-color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +34,7 @@ a:has(h1.header-logo-text) {
 
 .header-logo-text {
     text-decoration: none;
-    color: white;
+    color: var(--main-color);
     font-size: 40px;
 }
 
@@ -42,19 +47,28 @@ a:has(h1.header-logo-text) {
 
 .header-menu-ele {
     text-decoration: none;
-    color: white;
+    color: black;
     align-self: center;
     animation-name: out;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 20px 10px;
+}
+
+.header-menu-ele:hover {
+    cursor: pointer;
 }
 
 .header-menu-ele:hover {
     animation-name: in;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
+/*
 @keyframes in {
     0% {
         font-size: 20px;
@@ -62,17 +76,36 @@ a:has(h1.header-logo-text) {
     }
     100% {
         font-weight: bold;
-        font-size: 23px;
+        font-size: 20px;
     }
 }
 
 @keyframes out {
     0% {
         font-weight: bold;
-        font-size: 23px;
+        font-size: 20px;
     }
     100% {
         font-size: 20px;
         font-weight: 400;
+    }
+}
+*/
+
+@keyframes in {
+    0% {
+        color: black;
+    }
+    100% {
+        color: var(--main-color);
+    }
+}
+
+@keyframes out {
+    0% {
+        color: var(--main-color);
+    }
+    100% {
+        color: black;
     }
 }
