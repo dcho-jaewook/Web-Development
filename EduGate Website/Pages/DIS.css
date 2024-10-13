@@ -1,0 +1,80 @@
+#DIS-title {
+    font-size: 40px;
+    padding: 4vw;
+    background-color: #416B9A;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.DIS-title-box {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2vw;
+    height: 5vw;
+    width: 50vw;
+}
+
+.DIS-title-box-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.DIS-title-box-deco {
+    position: absolute;
+    top: 9.2vw;
+    left: 5vw;
+    border: solid white 0.2vw;
+    /*background-color: transparent;*/
+    height: 9vw;
+    width: 53.6vw;
+}
+
+#DIS-programs {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.DIS-programs-program {
+    box-sizing: border-box;
+    width: 25vw;
+    height: 18vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.DIS-programs-1 {
+    background-color: rgb(240, 240, 240);
+}
+
+.DIS-programs-2 {
+    background-color: rgb(230, 230, 230);
+}
+
+.DIS-programs-3 {
+    background-color: rgb(210, 210, 210);
+}
+
+.DIS-programs-4 {
+    background-color: rgb(190, 190, 190);
+}
+
+.DIS-programs-program-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.DIS-programs-program-list {
+    padding-left: 3vw;
+    list-style-type: none;
+}
+
+.DIS-programs-program-list li {
+    margin: 10px 0;
+    font-size: 20px;
+}
