@@ -9,12 +9,6 @@
     text-decoration: underline;
 }
 
-/* Invisible */
-.header-menu-College,
-.header-menu-SAT,
-.header-menu-Med {
-    display: none;
-}
 
 /* Main Section */
 #main {
