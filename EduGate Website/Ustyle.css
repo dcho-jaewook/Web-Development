@@ -4,6 +4,13 @@
     font-family: "Nanum Gothic", sans-serif;
 }
 
+/* Invisible */
+.header-menu-College,
+.header-menu-SAT,
+.header-menu-Med {
+    display: none;
+}
+
 #header {
     background-color: rgb(48,205,215);
     height: 80px;
@@ -16,7 +23,12 @@
     align-self: center;
 }
 
+a:has(h1.header-logo-text) {
+    text-decoration: none;
+}
+
 .header-logo-text {
+    text-decoration: none;
     color: white;
     font-size: 40px;
 }
@@ -24,7 +36,7 @@
 .header-menu {
     margin-right: 100px;
     display: flex;
-    width: 700px;
+    width: 30vw;
     justify-content: space-between;
 }
 
@@ -32,5 +44,35 @@
     text-decoration: none;
     color: white;
     align-self: center;
-    font-size: 20px;
+    animation-name: out;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.header-menu-ele:hover {
+    animation-name: in;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes in {
+    0% {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    100% {
+        font-weight: bold;
+        font-size: 23px;
+    }
+}
+
+@keyframes out {
+    0% {
+        font-weight: bold;
+        font-size: 23px;
+    }
+    100% {
+        font-size: 20px;
+        font-weight: 400;
+    }
 }
