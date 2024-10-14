@@ -89,3 +89,8 @@
     margin: 10px 0;
     font-size: 20px;
 }
+
+#DIS-timeline {
+    width: 100vw;
+    height: 100vh;
+}
