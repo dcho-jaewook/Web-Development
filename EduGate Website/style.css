@@ -123,12 +123,13 @@
 .why-container {
     display: flex;
     justify-content: space-around;
+    padding: 0 2vw;
 }
 
 .why-element {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30vw;
 }
 
 .why-element img {
@@ -138,11 +139,12 @@
 
 .why-element-title {
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.why-element-title,
 .why-element-para {
-    text-align: center;
+    padding: 0 20px;
+    font-size: 20px;
 }
 
 /* Review Section */
