@@ -43,9 +43,12 @@
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
+/* Programs Section */
+
 #DIS-programs {
     display: flex;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .DIS-programs-program {
@@ -74,23 +77,112 @@
 
 .DIS-programs-program-title {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .DIS-programs-program-list {
-    padding-left: 3vw;
+    padding-left: 1vw;
     list-style-type: none;
 }
 
 .DIS-programs-program-list li {
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 20px;
 }
 
-#DIS-timeline {
-    width: 100vw;
+.DIS-programs-program-list li:first-of-type {
+    margin-top: 30px;
+}
+
+#DIS-stretegy {
+    box-sizing: border-box;
+}
+
+.DIS-strategy-container {
+    display: flex;
+}
+
+
+/* Strategy Section */
+
+#DIS-strategy {
+    margin-top: 10vw;
+}
+
+.DIS-strategy-title {
+    box-sizing: content-box;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+.DIS-strategy-container {
+    display: flex;
+}
+
+.DIS-strategy-container .DIS-strategy-ele:nth-child(1) {
+    background-color: #80a9dbb1;
+}
+
+.DIS-strategy-container .DIS-strategy-ele:nth-child(2) {
+    background-color: #94bae873;
+}
+
+.DIS-strategy-container .DIS-strategy-ele:nth-child(3) {
+    background-color: #b2c8e45f;
+}
+
+.DIS-strategy-ele {
+    width: 33.3vw;
+    padding: 4vw 0;
+}
+
+.DIS-strategy-ele-title {
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.DIS-strategy-ele-title span {
+    font-weight: 400;
+}
+
+.DIS-strategy-ele-para {
+    margin-top: 2vw;
+    padding: 0 2vw;
+    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+#DIS-books {
+    padding-top: 5vw;
+}
+
+.DIS-books-text {
+    width: 60vw;
+}
+
+.DIS-books-text-title {
+    margin: 5vw;
+    text-align: center;
+    font-size: 40px;
+}
+
+.DIS-books-text-list {
+    margin-left: 15vw;
+}
+
+.DIS-books-text-list-ele {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#empty {
     height: 100vh;
 }
