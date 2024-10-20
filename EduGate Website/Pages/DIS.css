@@ -162,20 +162,22 @@
 
 #DIS-books {
     padding-top: 5vw;
+    display: flex;
 }
 
 .DIS-books-text {
-    width: 60vw;
+    margin-left: 10vw;
+    width: 50vw;
 }
 
 .DIS-books-text-title {
-    margin: 5vw;
+    margin: 4.5vw;
     text-align: center;
     font-size: 40px;
 }
 
 .DIS-books-text-list {
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 .DIS-books-text-list-ele {
@@ -183,6 +185,66 @@
     margin-bottom: 10px;
 }
 
+.DIS-books-ele {
+    position: relative;
+}
+
+.DIS-books-ele img {
+    width: 20vw;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    transition: 1s;
+}
+
+.DIS-books-ele img:hover {
+    opacity: 0.15;
+}
+
+.DIS-books-ele p {
+    box-sizing: border-box;
+    padding: 1vw;
+    width: 20vw;
+    height: 28.3vw;
+    font-size: 20px;
+    position:absolute;
+    background-color: #B7ECEF;
+    top:0;
+}
+
+.DIS-books-visual {
+    position: relative;
+    display: flex;
+    margin-top: 5vw;
+}
+
+.DIS-books-ele.current {
+    display: block;
+}
+
+.DIS-books-ele:not(.current) {
+    display: none;
+}
+
+.prev {
+    margin-right: 30px;
+    position: relative;
+    top: 45%;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+.next {
+    margin-left: 30px;
+    position: relative;
+    top: 45%;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
 #empty {
-    height: 100vh;
+    height: 10vh;
 }
