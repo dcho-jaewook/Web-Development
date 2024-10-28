@@ -148,3 +148,28 @@
 }
 
 /* Review Section */
+.review-collection {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+}
+
+.review-box {
+    border: solid 1px rgb(182, 181, 181);
+    border-radius: 5px;
+    padding: 30px;
+    width: 17vw;
+}
+
+.review-box-title {
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.review-box-sub {
+    font-size: 1.2vw;
+}
+
+.review-box-content {
+    font-size: 1vw;
+}
