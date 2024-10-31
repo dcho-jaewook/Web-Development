@@ -116,8 +116,8 @@
 /* Why EduGate Section */
 
 #why {
-    padding-top: 100px;
-    padding-bottom: 10%;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .why-container {
@@ -148,17 +148,23 @@
 }
 
 /* Review Section */
+#review {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 100px;
+}
+
 .review-collection {
     display: flex;
-    justify-content: space-between;
-    padding: 3vw;
+    justify-content: space-around;
 }
 
 .review-box {
+    position: relative;
     border: solid 1px rgb(182, 181, 181);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 30px;
-    width: 17vw;
+    width: 20vw;
 }
 
 .review-box-title {
@@ -172,4 +178,11 @@
 
 .review-box-content {
     font-size: 1vw;
+}
+
+.review-box img {
+    position: absolute;
+    top: 1vw;
+    right: 1.3vw;
+    width: 4vw;
 }
