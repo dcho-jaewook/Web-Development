@@ -13,8 +13,8 @@
     align-items: center;
     background-color: white;
     padding: 2vw;
-    height: 5vw;
-    width: 50vw;
+    height: 8.5vw;
+    width: 53.6vw;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
@@ -34,11 +34,11 @@
 
 .DIS-title-box-deco {
     position: absolute;
-    top: 9.2vw;
+    top: 9.5vw;
     left: 5vw;
     border: solid white 0.2vw;
     /*background-color: transparent;*/
-    height: 9vw;
+    height: 8.5vw;
     width: 53.6vw;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
@@ -160,7 +160,7 @@
     font-family: "Noto Sans KR", sans-serif;
 }
 
-#DIS-books {
+/* #DIS-books {
     padding-top: 5vw;
     display: flex;
 }
@@ -218,6 +218,11 @@
     margin-top: 5vw;
 }
 
+.DIS-books-container {
+    position: relative;
+    left: 3vw;
+}
+
 .DIS-books-ele.current {
     display: block;
 }
@@ -245,6 +250,65 @@
     cursor: pointer;
 }
 
+.prev-btn {
+    position: relative;
+    top: 50%;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.next-btn {
+    position: relative;
+    left: 6vw;
+    top: 50%;
+    font-size: 2.5vw;
+    cursor: pointer;
+} */
+
 #empty {
     height: 10vh;
+}
+
+#DIS-books {
+    padding-top: 5vw;
+    display: flex;
+}
+
+.DIS-books-text {
+    margin-left: 2vw;
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.DIS-books-text-title {
+    margin: 3vw;
+    text-align: center;
+    font-size: 40px;
+}
+
+.DIS-books-text-list {
+    margin-left: 10vw;
+}
+
+.DIS-books-text-list-ele {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.DIS-books-visual-container {
+    width: 50vw;
+}
+
+.DIS-books-visual-ele {
+    display: flex;
+    flex-direction: row;
+}
+
+.DIS-books-visual-ele-img {
+    width: 10vw;
+}
+
+.DIS-books-visual-ele-para {
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
