@@ -30,6 +30,7 @@
 .DIS-title-box-text {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    font-size: 3.5vw;
 }
 
 .DIS-title-box-deco {
@@ -55,8 +56,8 @@
     box-sizing: border-box;
     width: 25vw;
     height: 18vw;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 1.5vw;
+    padding-bottom: 2vw;
 }
 
 .DIS-programs-1 {
@@ -78,7 +79,7 @@
 .DIS-programs-program-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.5vw;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -97,26 +98,19 @@
     margin-top: 30px;
 }
 
-#DIS-stretegy {
-    box-sizing: border-box;
-}
-
-.DIS-strategy-container {
-    display: flex;
-}
-
 
 /* Strategy Section */
 
 #DIS-strategy {
     margin-top: 10vw;
+    box-sizing: border-box;
 }
 
 .DIS-strategy-title {
     box-sizing: content-box;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 4vw;
     margin-bottom: 1vw;
     text-align: center;
 }
@@ -160,20 +154,21 @@
     font-family: "Noto Sans KR", sans-serif;
 }
 
-/* #DIS-books {
+/* Books Section */
+#DIS-books {
     padding-top: 5vw;
-    display: flex;
+    margin-bottom: 10vw;
 }
 
 .DIS-books-text {
-    margin-left: 10vw;
-    width: 50vw;
+    margin-left: 2vw;
+    box-sizing: border-box;
 }
 
 .DIS-books-text-title {
-    margin: 4.5vw;
+    margin: 3vw;
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 .DIS-books-text-list {
@@ -212,103 +207,73 @@
     top:0;
 }
 
+.DIS-books-ele-title {
+    text-align: center;
+}
+
 .DIS-books-visual {
     position: relative;
-    display: flex;
     margin-top: 5vw;
 }
 
 .DIS-books-container {
+    display: flex;
+    flex-direction: row;
     position: relative;
-    left: 3vw;
+    justify-content: space-around;
 }
 
-.DIS-books-ele.current {
-    display: block;
+
+/* Blog Section */
+#DIS-blog {
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
-.DIS-books-ele:not(.current) {
-    display: none;
+.DIS-blog-title {
+    text-align: center;
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
 }
 
-.prev {
-    margin-right: 30px;
-    position: relative;
-    top: 45%;
+.DIS-blog-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DIS-blog-ele {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.DIS-blog-ele img {
+    width: 27vw;
+}
+
+.DIS-blog-ele-title {
+    text-align: center;
+    text-decoration: underline;
     color: black;
-    font-size: 50px;
-    cursor: pointer;
+    margin-top: 1vw;
+    font-size: 1vw;
 }
 
-
-.next {
-    margin-left: 30px;
-    position: relative;
-    top: 45%;
-    color: black;
-    font-size: 50px;
-    cursor: pointer;
+#DIS-quote {
+    box-sizing: border-box;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10vw;
 }
 
-.prev-btn {
-    position: relative;
-    top: 50%;
-    font-size: 2.5vw;
-    cursor: pointer;
+.DIS-quote-ele {
+    text-align: center;
+    font-size: 3vw;
 }
-
-.next-btn {
-    position: relative;
-    left: 6vw;
-    top: 50%;
-    font-size: 2.5vw;
-    cursor: pointer;
-} */
 
 #empty {
     height: 10vh;
-}
-
-#DIS-books {
-    padding-top: 5vw;
-    display: flex;
-}
-
-.DIS-books-text {
-    margin-left: 2vw;
-    width: 50vw;
-    box-sizing: border-box;
-}
-
-.DIS-books-text-title {
-    margin: 3vw;
-    text-align: center;
-    font-size: 40px;
-}
-
-.DIS-books-text-list {
-    margin-left: 10vw;
-}
-
-.DIS-books-text-list-ele {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.DIS-books-visual-container {
-    width: 50vw;
-}
-
-.DIS-books-visual-ele {
-    display: flex;
-    flex-direction: row;
-}
-
-.DIS-books-visual-ele-img {
-    width: 10vw;
-}
-
-.DIS-books-visual-ele-para {
-    margin-left: 3vw;
-    margin-right: 3vw;
 }
